@@ -264,7 +264,7 @@ def main():
         if keys[pygame.K_F1]:
             background_fx.stop()
         if keys[pygame.K_F2]:
-            background_fx.play()
+            background_fx.play(-1)
 
 
         for enemy in enemies[:]:
